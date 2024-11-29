@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Attribute\Route;
 
 class RandomImageController extends AbstractController
 {
-    #[Route('/random/image', name: 'app_random_image')]
+    #[Route('/', name: 'app_random_image')]
     public function index(): Response
     {
         $images = [];
